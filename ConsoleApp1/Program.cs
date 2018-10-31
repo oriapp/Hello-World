@@ -10,13 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            System.Threading.Thread.Sleep(100);
             var name = "class";
             Console.WriteLine($"Hello {name.ToUpper()}!");
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine("I'm here!");
             System.Threading.Thread.Sleep(399);
-            Console.WriteLine("(ツ)");
-            Console.WriteLine(" ");
+            Console.WriteLine(" (ツ) ");
 
         }
     }
