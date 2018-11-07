@@ -13,10 +13,14 @@ namespace ConsoleApp4
 			int x = 1;
 
 			int i = 2;
-			while (x <= 3)
+			while (x < 10)
+			{
+				//Or i <= i * 2;
+				Console.WriteLine(x);
 				x++;
-			i = i * 2;
+				i = i * 2;
+			}
+			Console.WriteLine("How namy times?");
 		}
-		Console.WriteLine("How namy times?");
 	}
 }
